@@ -1,0 +1,21 @@
+{
+  "name": "parse",
+  "version": "0.0.1",
+  "description": "A code editor",
+  "main": "src/main-process/main",
+  "scripts": {
+    "test": "electron .",
+    "build-mac": "electron-packager . Parse --platform='darwin' --overwrite"
+  },
+  "author": "Tino Caer",
+  "license": "MIT",
+  "dependencies": {
+    "codemirror": "^5.22.2",
+    "electron": "^1.4.14",
+    "jquery": "^3.1.1",
+    "mousetrap": "^1.6.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^8.5.1"
+  }
+}
